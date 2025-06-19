@@ -59,6 +59,19 @@ struct SettingsView: View {
                     .padding(.vertical, 8)
                 }
 
+                // App Statistics
+                NavigationLink(destination: StatsView()) {
+                    HStack {
+                        Image(systemName: "chart.bar.fill")
+                            .foregroundColor(.blue)
+                            .font(.system(size: 24))
+                        Text(selectedLanguage == "English" ? "App Statistics" : "Uygulama İstatistikleri")
+                            .font(.system(size: 18))
+                            .fontWeight(.medium)
+                    }
+                    .padding(.vertical, 8)
+                }
+
                 // Çıkış Yap
                 Button(action: logOut) {
                     HStack {

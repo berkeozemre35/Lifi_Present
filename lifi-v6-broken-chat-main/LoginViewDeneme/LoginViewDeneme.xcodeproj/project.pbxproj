@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D3346E764FEFDEC6610512F /* Pods_LoginViewDeneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D1492558DDDDF639FA5BE0 /* Pods_LoginViewDeneme.framework */; };
 		C476B7792D0D612400D16631 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C476B7782D0D612400D16631 /* FirebaseAnalytics */; };
 		C476B77B2D0D612400D16631 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C476B77A2D0D612400D16631 /* FirebaseAnalyticsOnDeviceConversion */; };
 		C476B77D2D0D612400D16631 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C476B77C2D0D612400D16631 /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -35,9 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5532190F832486C403D2EF56 /* Pods-LoginViewDeneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewDeneme.release.xcconfig"; path = "Target Support Files/Pods-LoginViewDeneme/Pods-LoginViewDeneme.release.xcconfig"; sourceTree = "<group>"; };
-		99D1492558DDDDF639FA5BE0 /* Pods_LoginViewDeneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewDeneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2223B41DB239DE01CFCF9E6 /* Pods-LoginViewDeneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewDeneme.debug.xcconfig"; path = "Target Support Files/Pods-LoginViewDeneme/Pods-LoginViewDeneme.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A035052D031472001268BC /* LoginViewDeneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewDeneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,38 +87,17 @@
 				C476B7A32D0D612400D16631 /* FirebaseStorage in Frameworks */,
 				C476B7872D0D612400D16631 /* FirebaseCore in Frameworks */,
 				C476B77B2D0D612400D16631 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				8D3346E764FEFDEC6610512F /* Pods_LoginViewDeneme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		525419FEB00FAB5E9DD6CCB8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C2223B41DB239DE01CFCF9E6 /* Pods-LoginViewDeneme.debug.xcconfig */,
-				5532190F832486C403D2EF56 /* Pods-LoginViewDeneme.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		C3902D5B5E978F7F6282AA1B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				99D1492558DDDDF639FA5BE0 /* Pods_LoginViewDeneme.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C4A034FC2D031472001268BC = {
 			isa = PBXGroup;
 			children = (
 				C4A035072D031472001268BC /* LoginViewDeneme */,
 				C4A035062D031472001268BC /* Products */,
-				525419FEB00FAB5E9DD6CCB8 /* Pods */,
-				C3902D5B5E978F7F6282AA1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,11 +116,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4A035132D031473001268BC /* Build configuration list for PBXNativeTarget "LoginViewDeneme" */;
 			buildPhases = (
-				DF16E03B6FCBE87B482308BE /* [CP] Check Pods Manifest.lock */,
 				C4A035012D031472001268BC /* Sources */,
 				C4A035022D031472001268BC /* Frameworks */,
 				C4A035032D031472001268BC /* Resources */,
-				805D4119D178AD79C6072892 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,48 +204,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		805D4119D178AD79C6072892 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginViewDeneme/Pods-LoginViewDeneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginViewDeneme/Pods-LoginViewDeneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginViewDeneme/Pods-LoginViewDeneme-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF16E03B6FCBE87B482308BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginViewDeneme-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4A035012D031472001268BC /* Sources */ = {
@@ -406,7 +337,6 @@
 		};
 		C4A035142D031473001268BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2223B41DB239DE01CFCF9E6 /* Pods-LoginViewDeneme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,7 +370,6 @@
 		};
 		C4A035152D031473001268BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5532190F832486C403D2EF56 /* Pods-LoginViewDeneme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
