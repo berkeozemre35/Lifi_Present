@@ -1,0 +1,18 @@
+/* 
+  Localizable (tr).strings
+  LoginViewDeneme
+
+  Created by Berke Özemre on 7.04.2025.
+  
+*/
+
+"MainView_Home" = "Anasayfa";
+"MainView_Event" = "Etkinlik";
+"MainView_Map" = "Harita";
+"MainView_Chat" = "Sohbet";
+"MainView_Profile" = "Profil";
+"SettingsView_DarkMode" = "Karanlık Mod";
+"SettingsView_Language" = "Dil";
+"SettingsView_RateApp" = "Uygulamayı Puanla";
+"SettingsView_Help" = "Yardım";
+"SettingsView_LogOut" = "Çıkış Yap";

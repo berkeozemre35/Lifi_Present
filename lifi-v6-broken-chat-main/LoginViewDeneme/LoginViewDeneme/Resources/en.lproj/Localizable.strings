@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  LoginViewDeneme
+
+  Created by Berke Özemre on 7.04.2025.
+  
+*/
+
+"MainView_Home" = "Home";
+"MainView_Event" = "Event";
+"MainView_Map" = "Map";
+"MainView_Chat" = "Chat";
+"MainView_Profile" = "Profile";
+"SettingsView_DarkMode" = "Dark Mode";
+"SettingsView_Language" = "Language";
+"SettingsView_RateApp" = "Rate the App";
+"SettingsView_Help" = "Help";
+"SettingsView_LogOut" = "Log Out";
